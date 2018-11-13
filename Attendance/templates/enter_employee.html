@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{{ url_for('create') }}">
+    <label>Employee Name</label>
+    <input type="text" name="employee_name">
+    <button type="submit">Submit</button>
+</form>
+<form action="{{ url_for('export') }}">
+    <button type="submit">Export Employee</button>
+</form>
+<form action="{{ url_for('show_attendence') }}">
+    <button type="submit">Show Attendence</button>
+</form>
+</body>
+</html>

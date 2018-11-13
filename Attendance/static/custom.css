@@ -1,0 +1,24 @@
+td,th{
+    border: 2px solid white;
+    text-align: left;
+    padding: 8px;
+    text-align:center;
+}
+tr:nth-child(even) {
+    background-color: #8080ff;
+}
+
+tr:nth-child(odd) {
+    background-color: #6666ff;
+}
+
+.head{
+    color:black;
+    font-size:20px;
+    font-weight:bolder;
+}
+
+.data{
+    color: #e6e6e6;
+    font-weight: bold;
+}
